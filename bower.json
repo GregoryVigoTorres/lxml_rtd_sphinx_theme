@@ -1,0 +1,21 @@
+{
+  "name": "lxml_rtd",
+  "homepage": "https://github.com/lxml/lxml",
+  "authors": [
+    "Gregory Vigo Torres <gregory.vigo@gmail.com>"
+  ],
+  "description": "Read the Docks theme adapted for lxml",
+  "main": "lmxml_rtd/sass/lxml_theme.sass",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "wyrm": "^1.0.9"
+  }
+}

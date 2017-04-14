@@ -1,0 +1,15 @@
+{
+  "name": "lxml_rtd_theme",
+  "description": "Sphinx theme for lxml docs very heavily based on the Read the Docs Sphinx theme",
+  "version": "1.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.8.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-cli": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}

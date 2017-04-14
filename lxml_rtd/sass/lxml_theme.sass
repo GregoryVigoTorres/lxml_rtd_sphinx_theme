@@ -1,0 +1,91 @@
+@import theme
+
+// override a few styles from the Read the Docs theme
+
+$lxml-green: #23953C
+$lxml-green-dark: #035E17
+
+.wy-side-nav-search
+  background-color: $lxml-green
+  input[type="text"]
+    border-radius: 0px
+    border: none
+
+.wy-side-nav-search > .version
+  // color: #fcfcfc !Important
+  color: #fcfcfc
+
+.wy-side-nav-search > a
+  font-size: 1.2rem
+
+.docs-nav
+  margin-bottom: 3rem
+  a
+    font-weight: 800
+    padding: 1rem 2rem
+    margin-right: 1rem
+    color: $lxml-green
+    border: 1px solid $lxml-green
+    &:hover
+      color: $lxml-green-dark
+      border: 1px solid $lxml-green-dark
+
+.wy-nav-content-wrap
+  margin-left: 3.5rem
+
+.line-block
+  text-align: right
+  // margin-left: 0px !Important
+  margin-left: 0px
+  margin-bottom: 2rem
+  padding: 1rem 1rem 0 1rem
+  .line
+    a
+      font-style: italic
+      color: $lxml-green
+
+.donate-button-container
+  text-align: center
+
+.donate-button
+  margin-bottom: 3rem
+  p
+    margin-bottom: 0
+  a
+    // color: #000
+    color: #1D61B8
+    font-weight: 800
+    display: inline-block
+    padding: 9px 20px 6px 20px
+    border-radius: 40px
+    // border: 1px solid black
+    border: 3px solid #E2B100
+    background: #FFD22F
+    margin-bottom: 5px
+    &:hover
+      background: #FFBE2F
+
+li.toctree-l1
+  // list-style: none !Important
+  list-style: none
+  a
+    font-weight: 800
+    font-size: 1.2rem
+    text-decoration: underline
+
+li.toctree-l2
+  // list-style: none !Important
+  list-style: none
+  a
+    font-weight: 800
+    font-size: 100%
+  ul
+    li
+      list-style: disc
+      a
+        font-weight: normal
+
+li.toctree-l2
+  a
+    text-decoration: none
+
