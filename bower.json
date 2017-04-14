@@ -16,6 +16,14 @@
     "tests"
   ],
   "dependencies": {
-    "wyrm": "^1.0.9"
+    "wyrm": "^1.0.9",
+    "lato-googlefont": "*",
+    "robotoslab-googlefont": "*",
+    "inconsolata-googlefont": "*",
+    "font-awesome": "~4.7"
+  },
+  "resolutions": {
+    "font-awesome": "~4.7"
   }
+
 }
