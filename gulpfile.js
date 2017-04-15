@@ -5,8 +5,8 @@ var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 
 // static root for source files
-var staticRoot = './lxml_rtd/static/'
-var dest = './lxml_rtd/dist/';
+var staticRoot = './lxml_rtd_sphinx_theme/static/'
+var dest = './lxml_rtd_sphinx_theme/';
 var sassIncludePaths = [
   'bower_components/bourbon/dist',
   'bower_components/neat/app/assets/stylesheets',
@@ -14,7 +14,7 @@ var sassIncludePaths = [
   'bower_components/wyrm/sass'
 ]
 
-var sassSource = './lxml_rtd/sass/**/*.sass'
+var sassSource = './lxml_rtd_sphinx_theme/sass/**/*.sass'
 var sassDest = dest+'static/css'
 var sassOpts = {
   includePaths: sassIncludePaths,

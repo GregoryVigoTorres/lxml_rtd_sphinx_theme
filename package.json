@@ -1,5 +1,5 @@
 {
-  "name": "lxml_rtd_theme",
+  "name": "lxml_rtd_sphinx_theme",
   "description": "Sphinx theme for lxml docs very heavily based on the Read the Docs Sphinx theme",
   "version": "1.0.1",
   "license": "MIT",
