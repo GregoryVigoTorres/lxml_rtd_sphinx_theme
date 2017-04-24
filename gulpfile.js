@@ -70,6 +70,6 @@ gulp.task('sass-watch', function() {
   gulp.watch(sassSource, ['sass']);
 });
 
-gulp.task('build-deps', function() {
+gulp.task('get-deps', function() {
   return bower();
 });
