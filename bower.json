@@ -1,11 +1,11 @@
 {
-  "name": "lxml_rtd",
+  "name": "lxml_rtd_sphinx_theme",
   "homepage": "https://github.com/lxml/lxml",
   "authors": [
     "Gregory Vigo Torres <gregory.vigo@gmail.com>"
   ],
-  "description": "Read the Docks theme adapted for lxml",
-  "main": "lmxml_rtd/sass/lxml_theme.sass",
+  "description": "Read the Docs based theme for lxml",
+  "main": "lxml_rtd_sphinx_theme/sass/lxml_theme.sass",
   "license": "MIT",
   "private": true,
   "ignore": [
