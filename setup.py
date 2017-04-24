@@ -4,7 +4,7 @@ setup(
     name='lxml_rtd_sphinx_theme',
     version='0.1.0',
     license='MIT',
-    author='lxml community, Gregory Vigo Torres, Dave Snider',
+    author='lxml doc authors, Gregory Vigo Torres, Dave Snider',
     packages=['lxml_rtd_sphinx_theme'],
     package_data={'lxml_rtd_sphinx_theme':[
         'theme.conf',
